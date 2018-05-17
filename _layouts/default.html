@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About</title>
+        <meta name="description" content="I&#39;m a software developer, living in New Delhi, India.">
+        <meta name="keywords" content="himanshu,pahadia,himanshupahadia,himanshu iiitd, iiit delhi,delhi,software,developer,engineer">
+        <meta name="author" content="Himanshu Pahadia">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="{{site.baseurl}}/assets/favicons/manifest.json">
+        <link rel="mask-icon" href="{{site.baseurl}}/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/font-awesome.min.css">
+        <script src="https://use.fontawesome.com/a2ebc95a3d.js"></script>
+        <!-- Fonts -->
+        <!--
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+        <!-- Icons -->
+        <!-- Images -->
+    </head>
+    <body js-component="page">
+        {% include aside-menu.html %}
+        <div class="page">
+            {% include header.html %}
+            {{content}}
+            {% include elevator.html %}
+        </div>
+        <!-- Scripts -->
+        <script src="{{site.baseurl}}/assets/js/jquery-3.2.1.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/hammer.min.js"></script>
+        <script src="{{site.baseurl}}/assets/js/app.js"></script>
+    </body>
+</html>
