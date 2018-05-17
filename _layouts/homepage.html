@@ -40,8 +40,12 @@
 
 <body js-component="page">
     {% include aside-menu.html %}
+    <div class="page">
+    {% include menu-trigger.html %}
 
     {{content}}
+    {% include elevator.html %}
+    </div>
 
     <!-- Scripts -->
     <script src="{{site.baseurl}}/assets/js/jquery-3.2.1.min.js"></script>
