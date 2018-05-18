@@ -11,14 +11,14 @@ changefreq: daily
 			<section class="content__section" itemprop="articleBody">
 				<h1>Projects</h1>
 				<div class="content__list">
-					{% for project in site.categories.project %}
+					{% for project in site.projects %}
 						<a href="{{site.baseurl}}{{project.url}}">
 							<div class="content__list__item">
 								<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
 									<!--
 									<figure class="content__image ">
-																<img class="content__image__img" src="assets/img/art-zensar.jpg" alt="">
-																
+																	<img class="content__image__img" src="assets/img/art-zensar.jpg" alt="">
+																	
 									</figure>
 									-->
 									<header class="content__header">

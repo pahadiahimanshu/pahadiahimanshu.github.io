@@ -15,6 +15,12 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   {% include sitemap-entry.xml entry=page %}
   {% endif %}
 {% endfor%}
+
+{% for project in site.projects %}
+  {% if project.layout %}
+  {% include sitemap-entry.xml entry=project %}
+  {% endif %}
+{% endfor%}
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <!--

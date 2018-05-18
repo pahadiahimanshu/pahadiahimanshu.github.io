@@ -1,8 +1,8 @@
 # Site settings
 title: Himanshu Pahadia - Developer
 description: "I&#39;m a &amp; software developer."
-baseurl: "" 
-# baseurl: /pahadiahimanshu
+# baseurl: "" 
+baseurl: /pahadiahimanshu
 permalink: pretty
 # url: "http://pahadiahimanshu.github.io"
 
@@ -19,3 +19,8 @@ profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tu
 exclude: ['README.md']
 _markdown: kramdown
 # theme: jekyll-theme-minimal
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
