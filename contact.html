@@ -4,12 +4,9 @@ layout: default
 <div class="content-container container">
 	<div class="column">
 		<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
-			<figure class="content__image ">
-				<img class="content__image__img" src="{{site.baseurl}}/assets/img/deer-corbett.jpg" alt="">
-				<figcaption class="content__image__caption">
-				Jim Corbett National Park, Uttarakhand
-				</figcaption>
-			</figure>
+			
+			{% include figure.html src='deer-corbett.jpg' caption='Jim Corbett National Park, Uttarakhand' %}
+
 			<section class="content__section" itemprop="articleBody">
 				<h1>Get in touch</h1>
 				<!--                        <p>Although, I'm currently busy with graduation, but always looking forward to <strike>time travels</strike> hear about new, exciting projects.</p>-->

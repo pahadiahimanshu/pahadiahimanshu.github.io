@@ -5,12 +5,8 @@ layout: default
 	<div class="column">
 		<p class="alert">Have a look at my <a href="public/docs/resume-himanshu_pahadia.pdf" target="_blank">Resume</a>.</p>
 		<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
-			<figure class="content__image ">
-				<img class="content__image__img" src="{{site.baseurl}}/assets/img/pune-airplane.jpg" alt="">
-				<figcaption class="content__image__caption">
-				Somewhere above Pune, Maharashtra
-				</figcaption>
-			</figure>
+			
+			{% include figure.html src='pune-airplane.jpg' caption='Somewhere above Pune, Maharashtra' %}
 			<section class="content__section" itemprop="articleBody">
 				<h1>About me</h1>
 				<p>Hey, I'm a 21-year-old computer science undergraduate from <a href="https://iiitd.ac.in/" target="_blank">Indraprastha Institute of Information Technology</a>, Delhi. I like developing software, designing graphics and drinking coffee.</p>
