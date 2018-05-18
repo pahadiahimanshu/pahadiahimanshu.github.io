@@ -19,16 +19,7 @@ The definition of privacy is different for everyone and the person defines wheth
 *   One click privacy - set recommended settings to multiple social networks on one click
 *   Reduce all the 45+ settings on Facebook on twitter to just **18 settings**
 
-<figure class="content__image ">
-	<img class="content__image__img" src="{{site.baseurl}}/assets/img/pc-steps.jpg" alt="">
-	<figcaption class="content__image__caption">
-	Privacy control walkthrough
-	</figcaption>
-</figure>
-{% include figure.html src='pc-result.jpg' caption='Savings' %}
-
-
-Privacy control walkthrough
+{% include figure.html src='pc-steps.jpg' caption='Privacy control walkthrough' %}
 
 **Architecture -**  
 The main challenge in the implementation was that the social networks don’t provide any easy way to alter users’ settings through API calls.  
@@ -51,8 +42,6 @@ The benefit of using this utility is -
 
 {% include figure.html src='pc-result.jpg' caption='Savings' %}
 
-
-Savings
 
 **How?**  
 There are 27 settings (16 Facebook and 11 Twitter) that our app recommends to the user. Suppose it takes 11 minutes and 15 seconds to properly understand and tweak these privacy settings.  
