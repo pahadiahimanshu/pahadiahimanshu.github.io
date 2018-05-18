@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="content-container container">
+	<div class="column">
+		<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+			<section class="content__section" itemprop="articleBody">
+				<div class="content__list">
+					<div class="content__list__item">
+						<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+							<figure class="content__image ">
+								
+									<img class="content__image__img" src="{{site.baseurl}}/assets/img/{{page.image}}" alt="">
+								
+								<figcaption class="content__image__caption">
+								Source: <a href="{{page.sourcelink}}" style="display:inline" target="_blank">{{page.source}}</a>
+								</figcaption>
+							</figure>
+							<header class="content__header ">
+								<p class="content__date" title="2018-05-20">
+									<time datetime="{{page.date}}" itemprop="datePublished">
+									{{page.datex}}
+									</time> &mdash; {{page.read}}
+								</p>
+								<h1 class="content__title" itemprop="name headline">
+								{{page.title}}
+								</h1>
+							</header>
+							<section class="content__section" itemprop="articleBody">
+								{{content}}
+							</section>
+						</article>
+					</div>
+				</div>
+				<!-- End of list items -->
+			</section>
+		</article>
+		{% include footer.html %}
+		
+	</div>
+	<!-- end of column-->
+</div>
