@@ -1,0 +1,9 @@
+<url>
+	<loc>https://pahadiahimanshu.github.io{{site.baseurl}}{{include.entry.url}}</loc>
+	{% if include.entry.changefreq %}
+		<changefreq>{{include.entry.changefreq}}</changefreq>
+	{% endif %}
+	{% if include.entry.changefreq %}
+		<priority>{{include.entry.changefreq}}</priority>
+	{% endif %}
+</url>
