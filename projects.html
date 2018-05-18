@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="content-container container">
+	<div class="column">
+		
+		<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+			{% include figure.html src='art-zensar.jpg' caption='Zensar Technologies, Pune' %}
+			<section class="content__section" itemprop="articleBody">
+				<h1>Projects</h1>
+				<div class="content__list">
+					{% for project in site.categories.project %}
+						<a href="projects/virtual-campus-project.html">
+							<div class="content__list__item">
+								<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+									<!--
+									<figure class="content__image ">
+															<img class="content__image__img" src="assets/img/art-zensar.jpg" alt="">
+															
+									</figure>
+									-->
+									<header class="content__header">
+										<i class="fa  fa-2x fa-arrow-circle-o-right" aria-hidden="true" style="float:right; margin-top:1rem"></i>
+										<h3 class="content__title">{{project.title}}</h3>
+									</header>
+									<section class="content__section" itemprop="articleBody">
+										<p>{{project.meta}}</p>
+									</section>
+								</article>
+							</div>
+						</a>
+						<hr>
+					{% endfor %}
+					
+				</div>
+			</section>
+		</article>
+		{% include footer.html %}
+		
+		<!-- end of links-->
+	</div>
+	<!-- end of column-->
+</div>
