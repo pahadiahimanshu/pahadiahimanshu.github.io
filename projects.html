@@ -10,13 +10,13 @@ layout: default
 				<h1>Projects</h1>
 				<div class="content__list">
 					{% for project in site.categories.project %}
-						<a href="projects/virtual-campus-project.html">
+						<a href="{{site.baseurl}}{{project.url}}">
 							<div class="content__list__item">
 								<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
 									<!--
 									<figure class="content__image ">
-															<img class="content__image__img" src="assets/img/art-zensar.jpg" alt="">
-															
+																<img class="content__image__img" src="assets/img/art-zensar.jpg" alt="">
+																
 									</figure>
 									-->
 									<header class="content__header">

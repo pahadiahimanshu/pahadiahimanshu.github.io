@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="content-container container">
+	<div class="column">
+		<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+			<figure class="content__image ">
+				<img class="content__image__img" src="{{site.baseurl}}/assets/img/{{page.image}}" alt="">
+				<figcaption class="content__image__caption">
+				</figcaption>
+			</figure>
+			<!-- {% include figure.html src='pune-airplane.jpg' caption='' %} -->
+			
+			<section class="content__section" itemprop="articleBody">
+				<!-- <h1>Virtual Campus Project</h1>-->
+				<div class="content__list">
+					<div class="content__list__item">
+						<article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+							<header class="content__header">
+								<h2 class="content__title">{{page.title}}</h2>
+							</header>
+							<section class="content__section" itemprop="articleBody">
+								{{content}}
+							</section>
+						</article>
+					</div>
+					<p></p>
+				</div>
+			</section>
+		</article>
+		{% include footer.html %}
+		<!-- end of links-->
+	</div>
+	<!-- end of column-->
+</div>
