@@ -3,6 +3,8 @@ layout: blog
 title: What's the point of blogging? (Draft)
 meta: Some people love reading, some love writing and some both. I love creating things, things..
 category: blog
+categories:
+permalink: /:categories/:title
 image: point-of-blogging.jpg
 datex: 18 May 2018
 read: 2 mins read

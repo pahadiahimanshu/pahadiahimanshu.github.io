@@ -23,4 +23,4 @@ _markdown: kramdown
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:path
