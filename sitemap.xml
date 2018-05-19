@@ -1,93 +1,74 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-{% for post in site.posts %}
-  {% include sitemap-entry.xml entry=post %}
-{% endfor%}
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://himanshupahadia.me/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/about/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/blog/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/contact/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/resume/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/public/docs/resume-himanshu_pahadia.pdf</loc>
+  <lastmod>2018-05-19T16:23:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/blog/point-of-blogging/</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/depixelize-pixelart</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/privacy-control</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/project-lazy-pizza</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/sab</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://himanshupahadia.me/projects/virtual-campus-project</loc>
+  <lastmod>2018-05-19T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-{% for page in site.pages %}
-  {% if page.layout %}
-  {% include sitemap-entry.xml entry=page %}
-  {% endif %}
-{% endfor%}
 
-{% for project in site.projects %}
-  {% if project.layout %}
-  {% include sitemap-entry.xml entry=project %}
-  {% endif %}
-{% endfor%}
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<!--
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/about.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/blog.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/projects.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/contact.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/resume.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/public/docs/resume-himanshu_pahadia.pdf</loc>
-<lastmod>2018-05-18T10:54:45+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/blog/2018/05/18/point-of-blogging.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/project/2018/05/18/virtual-campus-project.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/project/2018/05/18/sab.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/project/2018/05/18/project-lazy-pizza.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/project/2018/05/18/privacy-control.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://pahadiahimanshu.github.io/pahadiahimanshu/project/2018/05/18/depixelize-pixelart.html</loc>
-<lastmod>2018-05-18T10:54:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
--->
 </urlset>
