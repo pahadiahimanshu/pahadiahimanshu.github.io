@@ -5,7 +5,7 @@ meta: Easiest way to get food delivered to you within IIITD. Application is impl
 category: project
 image: plp-cover.jpg
 ---
-A delivery crowdsourcing application that enables a easy and hassle-free intra-campus delivery system. (Currently only for food)
+A delivery crowdsourcing application that enables an easy and hassle-free intra-campus delivery system. (Currently only for food)
 
 **Aim -**
 
