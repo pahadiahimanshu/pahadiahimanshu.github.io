@@ -3,6 +3,7 @@ layout: project
 title: Interactive Swept Surface Modeling in Virtual Reality
 meta: An interactive VR application that allows the user to sweep surfaces in virtual environment using both the motion-tracked contollers.
 category: project
+index: 1
 image: ssm-cover.jpg
 ---
 
@@ -28,7 +29,7 @@ It is difficult to achieve smooth curves and surfaces while freehand sketching i
     <img class="content__image__img"  src="https://latex.codecogs.com/gif.latex?\begin{center}&space;s(u)&space;=&space;p_{0}H_{0}(u)&space;&plus;&space;m_{0}H_{1}(u)&space;&plus;&space;m_{1}H_{2}(u)&space;&plus;&space;p_{1}H_{3}(u)\\&space;\shortintertext{&space;where\&space;u}&space;\in&space;\shortintertext{[0,1]&space;and\&space;basis\&space;functions\&space;are\&space;given\&space;by}&space;\\&space;H_{0}(u)&space;=&space;2u^3&space;-&space;3u^2&space;&plus;&space;1,\\&space;H_{1}(u)&space;=&space;u^3&space;-&space;2u^2&space;&plus;u,\\&space;H_{2}(u)&space;=&space;-2u^3&space;&plus;&space;3u^2,\\&space;H_{2}(u)&space;=&space;u^3&space;-&space;u^2&space;\end{center}" title="\begin{center} s(u) = p_{0}H_{0}(u) + m_{0}H_{1}(u) + m_{1}H_{2}(u) + p_{1}H_{3}(u)\\ \shortintertext{ where\ u} \in \shortintertext{[0,1] and\ basis\ functions\ are\ given\ by} \\ H_{0}(u) = 2u^3 - 3u^2 + 1,\\ H_{1}(u) = u^3 - 2u^2 +u,\\ H_{2}(u) = -2u^3 + 3u^2,\\ H_{2}(u) = u^3 - u^2 \end{center}" />
 </figure>
 
-*    *Line Renderer* - We use unity's own line renderer component to draw the splines and surfaces. The issue with using this feature is that it does not render one-pixel-wide lines. It renders billboard lines (polygons that always face the camera) that have a width in world units. Since, we move around the shapes we created, the shapes always face towards us, which makes it look unrealistic. This can be fixed though, if we create meshes instead of line.
+*    *Line Renderer* - We use unity's own line renderer component to draw the splines and surfaces. The issue with using this feature is that it does not render one-pixel-wide lines. It renders billboard lines (polygons that always face the camera) that have a width in world units. Since, we move around the shapes we created, the shapes always face towards us, which makes them look unrealistic. This can be fixed though, if we create meshes instead of lines.
 *    *Closed-surfaces* - Hermite splines are looped using a property of line renderer. Sweeping these closed splines can generate tubular surfaces which are hallow from inside.
 *    *Freehand sketching* - Hermite splines are a great way of utilising both the controllers, but freehand sketching can make great shapes too.
 *    *Swept Surfaces* - When the trigger on the right controller is pulled a swept surface is generated from the sequence of Hermite splines.

@@ -3,6 +3,7 @@ layout: project
 title: Project Lazy Pizza
 meta: Easiest way to get food delivered to you within IIITD. Application is implemented using the barter system. 
 category: project
+index: 4
 image: plp-cover.jpg
 ---
 A delivery crowdsourcing application that enables an easy and hassle-free intra-campus delivery system. (Currently only for food)

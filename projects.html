@@ -11,7 +11,8 @@ changefreq: daily
 			<section class="content__section" itemprop="articleBody">
 				<h1>Projects</h1>
 				<div class="content__list">
-					{% for project in site.projects %}
+					{% assign ordered_projects = site.projects | sort:"index" %}
+					{% for project in ordered_projects %}
 						<a href="{{site.baseurl}}{{project.url}}">
 							<div class="content__list__item">
 								<article class="content" itemscope itemtype="http://schema.org/BlogPosting">

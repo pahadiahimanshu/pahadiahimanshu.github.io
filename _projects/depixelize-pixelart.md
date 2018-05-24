@@ -3,6 +3,7 @@ layout: project
 title: Depixelize Pixelart
 meta: An algorithm that converts pixel art images to beautiful resolution-independent vector representation.
 category: project
+index: 3
 image: dp-cover.jpg
 ---
 

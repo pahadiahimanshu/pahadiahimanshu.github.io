@@ -3,6 +3,7 @@ layout: project
 title: SAB - Smart Automotive Bot
 meta: Smart car, powered by Raspberry Pi and multiple sensors, can understand the traffic signal.
 category: project
+index: 6
 image: sab-cover.jpg
 ---
 Smart car, powered by Raspberry Pi and multiple sensors, that can understand the traffic signal, detect platform edge and obstacles.
