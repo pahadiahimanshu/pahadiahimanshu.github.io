@@ -36,6 +36,7 @@ It is difficult to achieve smooth curves and surfaces while freehand sketching i
 
 
 #### Gallery
+{% include figure2.html src='ssm-playvideo.jpg' link='https://youtu.be/ZOSh7vmwquw' linktitle='Play the demo' caption='Click to play the demo' %}
 {% include figure.html src='ssm-hermite-shape.jpg' caption='System constantly shows how the hermite will look with certain orientation' %}
 {% include figure.html src='ssm-surfaces.jpg' caption='Sweept surfaces' %}
 {% include figure.html src='ssm-closed-spline.jpg' caption='Closed Hermite spline' %}
