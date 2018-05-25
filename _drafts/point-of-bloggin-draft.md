@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: What's the point of blogging? (Draft)
+title: What's the point of blogging?
 meta: Some people love reading, some love writing and some both. I love creating things, things..
 category: blog
 categories:
