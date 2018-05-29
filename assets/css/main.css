@@ -37,7 +37,8 @@ body {
     /*    Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif*/
     /*     font-family: 'Montserrat', sans-serif;;*/
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     /*    background-color: #f3f3f3;*/
     color: #373737;
     font-size: 2rem;
@@ -58,7 +59,8 @@ h5,
 h6 {
     /*    font-family: 'Montserrat', sans-serif;*/
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     letter-spacing: .08rem;
     color: #373737;
     font-weight: 700;
@@ -107,7 +109,9 @@ p,
 .paragraph {
     /*    font-family: 'Bitter', serif;*/
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+
     font-size: 2.0rem;
     line-height: 3.0rem;
     margin-bottom: 2.0rem;
@@ -297,6 +301,7 @@ contact_page {
     /*    font-family: 'Bitter', serif;*/
     /*    font-family: 'Comfortaa', cursive;*/
     /*    font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     /*    font-size: 2.0rem;*/
     line-height: 1.0rem;
     margin-bottom: 0rem;
@@ -509,7 +514,8 @@ contact_page {
 
 .nav-list-link {
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     letter-spacing: .08rem;
     font-size: 2.2rem;
     line-height: 2.2rem;
@@ -696,7 +702,8 @@ body.menu--open .menu-trigger__img--close {
 
 .button {
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     letter-spacing: .08rem;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
@@ -900,7 +907,8 @@ body.menu--open .menu-trigger__img--close {
 .header-logo-title,
 .header-logo-subtitle {
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -1152,7 +1160,8 @@ hr,
 
 .content__date {
     /*    font-family: 'Comfortaa', cursive;*/
-    font-family: 'PT Sans', sans-serif;
+    /*font-family: 'PT Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
     letter-spacing: .08rem;
     color: #878787;
     cursor: help;
