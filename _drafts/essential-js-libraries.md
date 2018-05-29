@@ -28,3 +28,40 @@ It's a powerful API for animating and manipulating both existing SVG content, an
 {% include link-new-tab.html text='Github' link='https://github.com/adobe-webplatform/Snap.svg' %}      •
 {% include link-new-tab.html text='Demo' link='http://snapsvg.io/demos/' %}     •
 {% include link-new-tab.html text='Documentation' link='http://snapsvg.io/demos/' %}
+<hr>
+
+#### Socket.io
+
+Socket.io is NodeJS chat server that enables real-time bidirectional event-based communication. It consists of a Nodejs server and a Javascript client library for the browser. It's reliable, cross-browser and supports Rooms, that sockets can join and leave.
+
+•{% include link-new-tab.html text='Website' link='https://socket.io/' %}   •
+{% include link-new-tab.html text='Github' link='https://github.com/socketio/socket.io' %}      •
+{% include link-new-tab.html text='Demo' link='https://socket.io/demos/chat/' %}     •
+{% include link-new-tab.html text='Documentation' link='https://socket.io/docs/' %}
+<hr>
+
+#### Dynamics.js
+
+Dynamics.js is a simple yet powerful library to create physics-based animations. It allows you to animate CSS properties of DOM elements, SVG properties and any JavaScript object. You can choose from variety of options like spring, bounce, force with gravity, bezier, linear etc.
+
+•{% include link-new-tab.html text='Website' link='http://dynamicsjs.com/' %}   •
+{% include link-new-tab.html text='Github' link='https://github.com/michaelvillar/dynamics.js' %}
+<hr>
+
+#### Chocolat.js
+
+Chocolat.js is a light and responsive JQuery lightbox plugin. "What's Lightbox?", you may ask. Lightbox is a Js library that displays images and videos by filling the screen, and dimming out rest of the page. It comes with an API and multiple CSS classes.
+
+•{% include link-new-tab.html text='Website' link='http://chocolat.insipi.de/' %}   •
+{% include link-new-tab.html text='Github' link='https://github.com/nicolas-t/Chocolat
+' %}      •
+{% include link-new-tab.html text='Demo' link='http://chocolat.insipi.de/#demo' %}
+<hr>
+
+#### Clipboard.js
+
+Clipboard.js is a very useful library that enables copy and cut button on text. This is one of the libraries I will be using in my fututre posts as they will be about development.
+
+•{% include link-new-tab.html text='Website' link='https://clipboardjs.com/' %}   •
+{% include link-new-tab.html text='Github' link='https://github.com/zenorocha/clipboard.js' %}
+<hr>
