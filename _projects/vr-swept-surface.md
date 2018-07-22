@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Interactive Swept Surface Modeling in Virtual Reality
-meta: An interactive VR application that allows the user to sweep surfaces in virtual environment using both the motion-tracked contollers.
+meta: An interactive VR application that allows the user to sweep surfaces in virtual environment using both the motion-tracked controllers.
 category: project
 index: 1
 image: ssm-cover.jpg
