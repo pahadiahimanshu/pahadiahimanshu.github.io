@@ -7,7 +7,7 @@ categories:
 permalink: /:categories/:title/
 image: future-of-interactions.jpg
 datex: 18 May 2018
-read: 2 mins read
+read: 7 mins read
 source: freepik
 sourcelink: https://www.freepik.com/free-vector/augmented-reality-background-with-device_2317192.htm#term=augmented%20reality&page=4&position=38
 ---
@@ -46,7 +46,7 @@ The major market that the company is trying to focus on is VR and AR, where you 
 
 {% include figure.html src='fi-gestures.jpg' caption='Group of people showing how would they turn off the lights (credits – IDEO)' %}
 
-The way computers perceive visual information is an entirely different discussion. Computer scientists have been researching on computer vision for a fairly long amount of time. Today, a computer can understand if you are stirring a coffee mug or opening the laptop. This itself is very fascinating because each image/frame is just a long list of binary digits that contain information about each pixel. 
+The way computers perceive visual information is an entirely different discussion. Computer scientists have been researching on computer vision for a fairly long time. Today, a computer can understand if you are stirring a coffee mug or opening the laptop. This itself is very fascinating because each image/frame is just a long list of binary digits that contain information about each pixel. 
 
 {% include figure.html src='3-trn.gif' caption='Demo video of activity recognition using Temporal Relation Networks (credits – Bolei Zhou) ' %}
 
@@ -56,11 +56,11 @@ Leap Motion takes the idea of hand interactions another step further. They made 
 
 {% include figure.html src='4-1-leapmotion.gif' caption='Hand modelled in VR using Leap Motion device mounted on headset (credits – Wall Street Journal)' %}
 
-We have been working on hand gesture recognition for retail systems for quite a long time. We have trained our own convolutional neural network that can detect your hand gestures in real-time. Using this trained neural network, we have developed a system that allows the user to control the location of mouse pointer using the hand movements, the user can click and scroll too.  
+I have been working on hand gesture recognition for retail systems. I have trained a convolutional neural network that can detect your hand gestures in real-time. Using this trained neural network, I developed a system that allows the user to control and simulate the functionality of a mouse using just his hand. The user will be able to move the pointer across the screen, click icons and can scroll documents too. 
 
-{% include figure.html src='4-gesture.gif' caption='Controlling the mouse scroll wheel using hand gesture (credits - Zenlabs, Zensar Technologies)' %}
+{% include figure.html src='4-gesture.gif' caption='Controlling the mouse scroll wheel using hand gesture (credits - Zenlabs)' %}
 
-Speed is the major advantage of using gestures as it is much quicker than speaking sentences. For example, instead of asking the computer to “scroll 10% down”, you can just show your fist as if you are grabbing the page and then move up or down to scroll the page.  
+Speed is the major advantage of using gestures as it is much quicker than speaking sentences. For example, instead of asking the computer to “scroll 10% down”, you can just show your fist as if you are grabbing the page and then move up or down to scroll the page. It's much more natural for the given usecase.
 
 But if you have to communicate a longer set of information, probably, it’s not the best option.   
 
@@ -68,14 +68,21 @@ But if you have to communicate a longer set of information, probably, it’s not
 
 {% include figure.html src='fi-braincontrol.jpg' caption='Brain wave detecting headset - Emotive Epoch (credits – Emotive Epoch)' %}
 
-How cool would that be if a real brain could communicate with an artificial brain? Well, it’s a reality now. We can now get the data by physiological functions using devices that can track the activity of different systems in the body. There are headsets that can sense brain waves. Similar to what neurons do for our body, these headsets pick up brain signals and then translate them into operations.  
+How cool would that be if a real brain could communicate with an artificial brain? Well, it’s a reality now. We can now get the data by physiological functions using devices that can track the activity of different systems in the body. There are headsets that can sense brain waves. Similar to what neurons do for our body, these headsets pick up brain signals and then translate them into actions.  
 
 At Stanford, researchers have developed a technology called brain gate that has enabled a woman suffering from A.L.S. to express her thoughts by typing on a screen, not with her fingers but with her brain waves.  
 
-The current generation of brain waves sensing headsets are not that powerful, so people need to focus a lot to provide commands to the system.  
+The current generation of brain waves sensing headsets is not that powerful, so people need to focus a lot to provide commands to the system.  
 
 #### Conclusion
 
 All the new technologies beg the question – out of these existing interaction technologies – sound (voice), haptics (touch), vision (gestures), and bio-feedback (brain control) - which is the best on to use?  
 
 The use cases point towards the answer. I believe all these technologies will not be competing against each other, rather, they will be working together in a multimodal interface. We will be communicating in one interface and getting the response in another. It will be complicated to develop and adapt, but that hasn’t stopped us from innovating, has it?  
+
+#### References
+* {% include link-new-tab.html text='The 2017 Voice Report by Alpine (fka VoiceLabs) by Adam Marchick' link='https://medium.com/@marchick/the-2017-voice-report-by-alpine-fka-voicelabs-24c5075a070f' %}
+* {% include link-new-tab.html text='Wall Street Journal – The race to replace your keyboard' link='https://youtu.be/lmEc3QaC08E?list=LLP5mLUHyhy9VmPreVwrrHUw' %}
+* {% include link-new-tab.html text='Why Gesture is the Next Big Thing in Design by David Rose (IDEO)' link='https://www.ideo.com/blog/why-gesture-is-the-next-big-thing-in-design' %}
+* {% include link-new-tab.html text='Stanford researchers harness brain waves for movement with Brain Gate' link='https://abc7news.com/health/stanford-researchers-harness-brain-waves-for-movement/1825212/' %}
+* {% include link-new-tab.html text='Statista - Wearable device sales revenue worldwide from 2016 to 2022' link='https://www.statista.com/statistics/610447/wearable-device-revenue-worldwide/' %}
