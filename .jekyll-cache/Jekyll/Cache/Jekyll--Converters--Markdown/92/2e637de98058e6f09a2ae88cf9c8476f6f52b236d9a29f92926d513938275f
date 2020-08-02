@@ -1,0 +1,34 @@
+I"<p>Smart car, powered by Raspberry Pi and multiple sensors, that can understand the traffic signal, detect platform edge and obstacles.</p>
+
+<p><strong>Programming tools -</strong></p>
+<ul>
+  <li>Python</li>
+  <li>OpenCV</li>
+</ul>
+
+<p><strong>Components -</strong></p>
+<ul>
+  <li>Raspberry Pi</li>
+  <li>Car Chassis</li>
+  <li>Raspberry Pi camera module</li>
+  <li>SD-card</li>
+  <li>Dual H-Bridge Motor Driver Module</li>
+  <li>Power Bank to power Raspberry Pi</li>
+  <li>Batteries to power the motors</li>
+  <li>Heat sink</li>
+  <li>IR sensors for Edge detection and obstacles</li>
+  <li>Ultrasonic distance measuring sensor module</li>
+  <li>4 DC motors</li>
+  <li>1 Servo motor</li>
+</ul>
+
+<h4 id="gallery">Gallery</h4>
+
+<figure class="content__image ">
+	<a href="https://www.youtube.com/watch?v=C_J7yesFV9U" rel="nofollow" target="_blank" title="Play SAB demo"><img class="content__image__img" src="/assets/img/sab-playvideo.jpg" alt="" /></a>
+	<figcaption class="content__image__caption">
+	Click to play the demo
+	</figcaption>
+</figure>
+
+:ET

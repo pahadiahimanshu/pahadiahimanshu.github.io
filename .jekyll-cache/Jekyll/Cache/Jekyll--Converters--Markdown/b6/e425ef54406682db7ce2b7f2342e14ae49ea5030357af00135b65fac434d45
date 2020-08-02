@@ -1,0 +1,33 @@
+I"�<p>A delivery crowdsourcing application that enables an easy and hassle-free intra-campus delivery system. (Currently only for food)</p>
+
+<p><strong>Aim -</strong></p>
+
+<p>To develop a human-centered application that is easy and convinient to use.</p>
+
+<p><strong>Features -</strong></p>
+
+<ul>
+  <li>Get food delivered to your location and pay the cost for food only. To pay delivery charges, use the in-app virtual currency <strong>“super coins”</strong>.</li>
+  <li>Earn the virtual currency by delivering food to those in-need.</li>
+  <li>Easy to order from the menu provided by canteen and in-campus cafe.</li>
+  <li>Easy to deliver and earn super coins from a dedicated marketplace which shows all live orders.</li>
+</ul>
+
+<p><strong>Process -</strong></p>
+
+<ul>
+  <li>After rigorous ideation and contextual inquiries, we created an affinity diagram on the basis of responses by students.</li>
+</ul>
+
+<p><img class="long-img" src="/assets/img/pc-affinity-low.jpg" /></p>
+
+<p>After the affinity diagram, we designed a low-fidelity prototype and did task analysis with students. Then as per iterative process, we refined the design and finally developed the android application.</p>
+
+<h4 id="low-fidelity-prototypes--">Low-fidelity prototypes -</h4>
+
+<p><img class="long-img" src="/assets/img/pc-lowfidelity-screenshots.jpg" /></p>
+
+<h4 id="android-application--">Android application -</h4>
+
+<p><img class="long-img" src="/assets/img/pc-android-screenshots.jpg" /></p>
+:ET

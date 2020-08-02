@@ -1,0 +1,41 @@
+I"�<p>Pixelart is a form of digital art, created through the use of raster graphics software, where images are edited on the pixel level.</p>
+
+<p>The algorithms interpret each pixel of the pixel art and convert them into regions that can be drawn using piecewise-smooth curves. An implementation of the algorithm stated in <a href="http://johanneskopf.de/publications/pixelart/">‘Depixeizing Pixel Art’</a> by Johannes Kopf and Dani Lischinski published in SIGGRAPH 2011.</p>
+
+<p>Algorithm -</p>
+
+<ul>
+  <li>Input the image</li>
+  <li>Initialize the similarity graph on the basis of pixel colors</li>
+  <li>Resolve crossing edges using different heuristics (planarizing the graph)</li>
+  <li>Create voronoi regions using the similarity graph</li>
+  <li>Extract B-spline curves and optimize</li>
+</ul>
+
+<h4 id="gallery--">Gallery -</h4>
+
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/dp-input-dolphin.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Upscaled input image
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/dp-sim-dolphin.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Similarity graph based on color and edges
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/dp-voronoi-dolphin.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Reshaping each cell
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/dp-bspline-dolphin.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Output image
+	</figcaption>
+</figure>
+:ET

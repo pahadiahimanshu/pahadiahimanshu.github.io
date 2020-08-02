@@ -1,0 +1,84 @@
+I"n<p>Privacy Control is a simple dashboard which combines all the privacy settings of multiple social network (Facebook, Twitter). It provides the user with best possible privacy settings for their accounts.</p>
+
+<p>Users share more than they expected, this disparity is known as “privacy paradox”. Liu et al. studied this and found that only 37% of the time users’ privacy settings match users’ expectation.</p>
+
+<p>The definition of privacy is different for everyone and the person defines whether to disclose or not on the basis of context and environment.</p>
+
+<p><strong>Features</strong> -</p>
+
+<ul>
+  <li>Recommend settings to protect users’ privacy on OSN</li>
+  <li>Give privacy score to previous settings</li>
+  <li>One click privacy - set recommended settings to multiple social networks on one click</li>
+  <li>Reduce all the 45+ settings on Facebook on twitter to just <strong>18 settings</strong></li>
+</ul>
+
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/pc-steps.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Privacy control walkthrough
+	</figcaption>
+</figure>
+
+<p><strong>Architecture -</strong><br />
+The main challenge in the implementation was that the social networks don’t provide any easy way to alter users’ settings through API calls.<br />
+So, the only possible solution that left was to open the page manually and alter the DOM element. To achieve this we developed a chrome extension and extensively used its functions for manipulating the tabs.</p>
+
+<ul>
+  <li>Check logged in user using adblockplus.js</li>
+  <li>Open the social network’s settings page</li>
+  <li>XMLHttpRequest to get the page</li>
+  <li>Secure the account from page</li>
+  <li>Extract the page headers</li>
+  <li>Edit the settings on the page to the submitted ones</li>
+  <li>
+    <p>Send AJAX post request along with</p>
+  </li>
+  <li>Extracted headers</li>
+  <li>New settings</li>
+</ul>
+
+<h4 id="results--">Results -</h4>
+
+<p>The benefit of using this utility is -</p>
+
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/pc-result.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Savings
+	</figcaption>
+</figure>
+
+<p><strong>How?</strong><br />
+There are 27 settings (16 Facebook and 11 Twitter) that our app recommends to the user. Suppose it takes 11 minutes and 15 seconds to properly understand and tweak these privacy settings.<br />
+Using our extension it merely takes 15 seconds to change settings. Saving 11 minutes per user.<br />
+Now, assuming 10,000 new users use our application daily. Average Indian wage per hour is Rs 40.<br />
+This is how we will be able to save Rs 74,000 per day.</p>
+
+<h4 id="gallery">Gallery</h4>
+
+<figure class="content__image ">
+	<a href="https://www.youtube.com/watch?v=Bco0eqDKH5g" rel="nofollow" target="_blank" title="Play privacy control teaser"><img class="content__image__img" src="/assets/img/pc-playvideo.jpg" alt="" /></a>
+	<figcaption class="content__image__caption">
+	Click to play video
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/pc-chrome-ext.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Privacy Control Chrome extension
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/pc-dashboard.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Dashboard
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/pc-fb-settings.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Facebook settings
+	</figcaption>
+</figure>
+:ET

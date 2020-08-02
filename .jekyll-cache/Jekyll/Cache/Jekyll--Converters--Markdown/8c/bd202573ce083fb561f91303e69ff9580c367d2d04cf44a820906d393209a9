@@ -1,0 +1,80 @@
+I"<p>Virtual Reality is by far seen as a creative and artistic medium. Drawing and sculpting is hence of prime importance in the future of VR. Most of the papers and applications available take the concept of freehand sketching for mostly design purposes in VR. However freehand sketching is not usefull for making smooth surfaces for the purpose of modelling.</p>
+
+<p>An implementation of the algorithm stated in <a href="https://dl.acm.org/citation.cfm?id=3092908">‘Interactive swept surface modeling in virtual reality with motion-tracked controllers’</a> by Tim McGraw, Esteban Garcia and Drew Summer (Purdue University) which was published in SBIM’17.</p>
+
+<p>It is difficult to achieve smooth curves and surfaces while freehand sketching in air. Hence, the paper introduces Hermite spline curves as a modeling and control primitive. There are three options mentioned in the paper for the type of surface that can be modelled using these hermite curves- Swept Surfaces, Repeated cloned meshes, and Tubular structures. After the position is defined by the hermite splines, the orientation is ascertained by a rotation minimization frame. The frame and reparameterization is done to allow the user to orient and scale the surfaces and cloned meshes.</p>
+
+<p><strong>Development Environment</strong> - Unity Engine, C# Scripting, HTC Vive System (with controllers and Lighthouse setup)</p>
+
+<h4 id="features--">Features -</h4>
+
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-trackpad-feature.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	User can switch between different options
+	</figcaption>
+</figure>
+
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-trigger-feature.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Trigger usage
+	</figcaption>
+</figure>
+
+<h4 id="implementation--">Implementation -</h4>
+
+<ul>
+  <li><em>Hermite splines</em> - The cubic Hermite curve has two endpoints p0 and p1. At the endpoints the curve is tangent to the given vectors m0 and m1. The parameteric equation of the curve is given by -</li>
+</ul>
+
+<figure class="content__image " style="display: flex;align-items: center;flex-direction: column;">
+    <img class="content__image__img" src="https://latex.codecogs.com/gif.latex?\begin{center}&space;s(u)&space;=&space;p_{0}H_{0}(u)&space;&plus;&space;m_{0}H_{1}(u)&space;&plus;&space;m_{1}H_{2}(u)&space;&plus;&space;p_{1}H_{3}(u)\\&space;\shortintertext{&space;where\&space;u}&space;\in&space;\shortintertext{[0,1]&space;and\&space;basis\&space;functions\&space;are\&space;given\&space;by}&space;\\&space;H_{0}(u)&space;=&space;2u^3&space;-&space;3u^2&space;&plus;&space;1,\\&space;H_{1}(u)&space;=&space;u^3&space;-&space;2u^2&space;&plus;u,\\&space;H_{2}(u)&space;=&space;-2u^3&space;&plus;&space;3u^2,\\&space;H_{2}(u)&space;=&space;u^3&space;-&space;u^2&space;\end{center}" title="\begin{center} s(u) = p_{0}H_{0}(u) + m_{0}H_{1}(u) + m_{1}H_{2}(u) + p_{1}H_{3}(u)\\ \shortintertext{ where\ u} \in \shortintertext{[0,1] and\ basis\ functions\ are\ given\ by} \\ H_{0}(u) = 2u^3 - 3u^2 + 1,\\ H_{1}(u) = u^3 - 2u^2 +u,\\ H_{2}(u) = -2u^3 + 3u^2,\\ H_{2}(u) = u^3 - u^2 \end{center}" />
+</figure>
+
+<ul>
+  <li><em>Line Renderer</em> - We use unity’s own line renderer component to draw the splines and surfaces. The issue with using this feature is that it does not render one-pixel-wide lines. It renders billboard lines (polygons that always face the camera) that have a width in world units. Since, we move around the shapes we created, the shapes always face towards us, which makes them look unrealistic. This can be fixed though, if we create meshes instead of lines.</li>
+  <li><em>Closed-surfaces</em> - Hermite splines are looped using a property of line renderer. Sweeping these closed splines can generate tubular surfaces which are hallow from inside.</li>
+  <li><em>Freehand sketching</em> - Hermite splines are a great way of utilising both the controllers, but freehand sketching can make great shapes too.</li>
+  <li><em>Swept Surfaces</em> - When the trigger on the right controller is pulled a swept surface is generated from the sequence of Hermite splines.</li>
+</ul>
+
+<h4 id="gallery">Gallery</h4>
+<figure class="content__image ">
+	<a href="https://youtu.be/ZOSh7vmwquw" rel="nofollow" target="_blank" title="Play the demo"><img class="content__image__img" src="/assets/img/ssm-playvideo.jpg" alt="" /></a>
+	<figcaption class="content__image__caption">
+	Click to play the demo
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-hermite-shape.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	System constantly shows how the hermite will look with certain orientation
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-surfaces.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Sweept surfaces
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-closed-spline.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Closed Hermite spline
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-material.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Different material
+	</figcaption>
+</figure>
+<figure class="content__image ">
+	<img class="content__image__img" src="/assets/img/ssm-art.jpg" alt="" />
+	<figcaption class="content__image__caption">
+	Let the imagination flow!
+	</figcaption>
+</figure>
+
+:ET
